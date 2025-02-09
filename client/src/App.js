@@ -55,7 +55,7 @@ class App extends Component {
     const data = { ...this.state };
 
     axios
-      .post("http://localhost:5000/update-editor", data)
+      .post("https://htmlcssjssyn.onrender.com/update-editor", data)
       .catch(console.error);
   };
 
